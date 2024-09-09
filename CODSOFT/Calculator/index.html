@@ -1,0 +1,39 @@
+    <!-- Created by: Mark Josh Alvear, 2024 -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.1.0/math.min.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <a><strong>ALVEAR - 2024</strong></a>
+            <input id="display" class="display" readonly>
+            <div class="buttons">
+            <button onclick="appendToDisplay('+'), playAudio()" class="operator">+</button>
+            <button onclick="appendToDisplay('7'), playAudio()">7</button>
+            <button onclick="appendToDisplay('8'), playAudio()">8</button>
+            <button onclick="appendToDisplay('9'), playAudio()">9</button>
+            <button onclick="appendToDisplay('-'), playAudio()" class="operator">-</button>
+            <button onclick="appendToDisplay('4'), playAudio()">4</button>
+            <button onclick="appendToDisplay('5'), playAudio()">5</button>
+            <button onclick="appendToDisplay('6'), playAudio()">6</button>
+            <button onclick="appendToDisplay('*'), playAudio()" class="operator">*</button>
+            <button onclick="appendToDisplay('1'), playAudio()">1</button>
+            <button onclick="appendToDisplay('2'), playAudio()">2</button>
+            <button onclick="appendToDisplay('3'), playAudio()">3</button>
+            <button onclick="appendToDisplay('/'), playAudio()" class="operator">/</button>
+            <button onclick="appendToDisplay('0'), playAudio()">0</button>
+            <button onclick="appendToDisplay('.'), playAudio()">.</button>
+            <button onclick="calculate(), playAudio()">=</button>
+            <button onclick="clearDisplay(), playAudio()" class="operator">C</button>
+            </div>
+        </div>
+        <audio id="audio" src="click.mp3"></audio>    <script src="script.js"></script>
+        </script>
+    </body>
+    </html>

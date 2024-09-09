@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "CODSOFT"
+		},
+		{
+			"path": "CODSOFT/assets"
+		},
+		{
+			"path": "CODSOFT/images"
+		},
+		{
+			"path": "../Calculator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CODSOFT"
+	}
+}
